@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 
-import { Card, Embed, Dropdown } from "semantic-ui-react";
+import { Card, Embed, Dropdown, Button, Icon } from "semantic-ui-react";
 
 function App() {
   const options = [
@@ -23,18 +23,41 @@ function App() {
               <Card.Meta>
                 <span className="date">Hosted on November 4th, 2022</span>
               </Card.Meta>
-              <Embed
-                id="dQw4w9WgXcQ"
-                placeholder="\images\thumbnail.jpg"
-                source="youtube"
-              ></Embed>
+              <Embed id="dQw4w9WgXcQ" placeholder="" source="youtube"></Embed>
+              <br></br>
               <Card.Description>
-                Copy description from Notion later...
+                The most important tools in a data scientist's toolkit. Join DS3
+                for the first workshop of the year and learn the fundamentals of
+                Python and Pandas.
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <p>Next Up: Natural Language Processing November 9th, 2022</p>
-              <a href = "https://ds3.ucsd.edu/events.html">Sign Up Here!</a>
+              <h4>Hosts</h4>
+              <Button
+                href="https://www.linkedin.com/in/keagan-benson-694395188"
+                compact
+                color="linkedin"
+                size="mini"
+              >
+                <Icon name="linkedin" /> Keagan Benson
+              </Button>
+              <Button
+                href="https://www.linkedin.com/in/radumanea"
+                compact
+                color="linkedin"
+                size="mini"
+              >
+                <Icon name="linkedin" /> Radu Manea
+              </Button>
+            </Card.Content>
+            <Card.Content>
+              <h4>Next Up:</h4>
+              <p>
+                <b>Natural Language Processing </b>
+                <br></br>
+                <i>November 9th, 2022</i>
+              </p>
+              <a href="https://ds3.ucsd.edu/events.html">Sign Up Here!</a>
             </Card.Content>
           </Card>
 
@@ -46,6 +69,7 @@ function App() {
             options={options}
             style={{ width: "100%" }}
           />
+          
         </div>
       </div>
     </div>
