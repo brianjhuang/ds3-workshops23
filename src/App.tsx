@@ -7,8 +7,10 @@ import "semantic-ui-css/semantic.min.css";
 import { Card, Embed, Dropdown } from "semantic-ui-react";
 
 function App() {
-
-  const options = [{key: "IntroToPP", text: "Intro to Python/Pandas", value: "IntroToPP"}, {key: "NLP", text: "Natural Language Processing", value: "NLP"}]
+  const options = [
+    { key: "IntroToPP", text: "Intro to Python/Pandas", value: "IntroToPP" },
+    { key: "NLP", text: "Natural Language Processing", value: "NLP" },
+  ];
 
   return (
     <div>
@@ -31,7 +33,8 @@ function App() {
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>Hosted by Radu Manea and Keagen Benson</a>
+              <p>Next Up: Natural Language Processing November 9th, 2022</p>
+              <a href = "https://ds3.ucsd.edu/events.html">Sign Up Here!</a>
             </Card.Content>
           </Card>
 
@@ -41,7 +44,7 @@ function App() {
             selection
             clearable
             options={options}
-            style = {{width: "100%"}}
+            style={{ width: "100%" }}
           />
         </div>
       </div>
