@@ -25,6 +25,7 @@ function App() {
               </Card.Meta>
               <Embed id="dQw4w9WgXcQ" placeholder="" source="youtube"></Embed>
               <br></br>
+              <a href = "https://github.com/KeaganBenson/DS3-Python-Pandas-Workshop">Slides</a>
               <Card.Description>
                 The most important tools in a data scientist's toolkit. Join DS3
                 for the first workshop of the year and learn the fundamentals of
