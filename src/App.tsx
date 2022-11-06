@@ -58,6 +58,23 @@ function App() {
                 <i>November 9th, 2022</i>
               </p>
               <a href="https://ds3.ucsd.edu/events.html">Sign Up Here!</a>
+              <h4>Hosts</h4>
+              <Button
+                href="https://www.linkedin.com/in/koosha-jadbabaei/"
+                compact
+                color="linkedin"
+                size="mini"
+              >
+                <Icon name="linkedin" /> Koosha Jadbabaei
+              </Button>
+              <Button
+                href="https://www.linkedin.com/in/kylenero/"
+                compact
+                color="linkedin"
+                size="mini"
+              >
+                <Icon name="linkedin" /> Kyle Nero
+              </Button>
             </Card.Content>
           </Card>
 
@@ -69,7 +86,6 @@ function App() {
             options={options}
             style={{ width: "100%" }}
           />
-          
         </div>
       </div>
     </div>
