@@ -2,7 +2,7 @@
   "name": "ds3-workshops23",
   "version": "0.1.0",
   "private": true,
-  "home": "brianjhuang.github.io/ds3-workshops23",
+  "homepage": "brianjhuang.github.io/ds3-workshops23",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
