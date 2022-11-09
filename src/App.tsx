@@ -20,10 +20,8 @@ function App() {
 
   // Update data on re-render
   useEffect(() => {
-    console.log(selectedWorkshop);
     setWorkshop(data[selectedWorkshop]);
     setNextWorkshop(data[data[selectedWorkshop].next_workshop]);
-    console.log(nextWorkshop);
   }, [selectedWorkshop]);
 
   return (
@@ -31,8 +29,7 @@ function App() {
       <div className="parent-div">
         <div>
           <Card>
-            <Card fluid color="orange" header="Missed the last workshop?" />
-
+            
             <LastWorkshop
               title={workshop.title}
               date={workshop.date}
