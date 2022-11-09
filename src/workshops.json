@@ -1,0 +1,86 @@
+{
+    "IntroToPP": {
+        "title": "Introduction to Python and Pandas",
+        "date": "November 4th, 2022",
+        "link_id": "dQw4w9WgXcQ",
+        "image_placeholder": "/images/IntroToPP.png",
+        "slide_links": "https://github.com/KeaganBenson/DS3-Python-Pandas-Workshop",
+        "embed_desc": "The most important tools in a data scientist's toolkit. Join DS3 for the first workshop of the year and learn the fundamentals of Python and Pandas.",
+        "hosts": [
+            {
+                "host_name": "Keagen Benson",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/keagan-benson-694395188"
+            },
+            {
+                "host_name": "Radu Manea",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/radumanea"
+            }
+        ],
+        "next_workshop": "NLP"
+    },
+    "NLP": {
+        "title": "Natural Language Processing",
+        "date": "November 9th, 2022",
+        "link_id": "uploading",
+        "image_placeholder": "",
+        "slide_links": "https://drive.google.com/file/d/1SAMQd6k-pRffN1JqcdbFZpvqIGpTKKPy/view?usp=drivesdk",
+        "embed_desc": "Have you ever been curious about how auto-complete works? Maybe some of the chat bots you’ve talked with have been getting a little too smart. Join DS3 as we take a deep dive into Natural Language Processing!",
+        "hosts": [
+            {
+                "host_name": "Koosha Jadbabaei",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/koosha-jadbabaei/"
+            },
+            {
+                "host_name": "Kyle Nero",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/kylenero/"
+            }
+        ],
+        "next_workshop": "InternExperiences"
+    },
+    "InternExperiences": {
+        "title": "Internship Experiences",
+        "date": "November 16th, 2022",
+        "link_id": "",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "Have you ever wondered what it’s like working an internship? What do people do at Facebook and Amazon? Join DS3 for it’s first live intern panel to hear about how our students got their internships, what they learned, and their tips on succeeding at their internships!",
+        "hosts": [
+            {
+                "host_name": "TBD",
+                "button_type": "linkedin",
+                "url": "/"
+            },
+            {
+                "host_name": "TBD",
+                "button_type": "linkedin",
+                "url": "/"
+            }
+        ],
+        "next_workshop": ""
+    },
+    "": {
+        "title": "Coming Soon!",
+        "date": "",
+        "link_id": "",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "",
+        "hosts": [
+            {
+                "host_name": "TBD",
+                "button_type": "linkedin",
+                "url": "/"
+            },
+            {
+                "host_name": "TBD",
+                "button_type": "linkedin",
+                "url": "/"
+            }
+        ],
+        "next_workshop": ""
+    }
+}
