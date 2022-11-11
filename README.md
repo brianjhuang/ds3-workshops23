@@ -134,7 +134,9 @@ git commit -m "USEFUL COMMIT MESSAGE"
 git push
 ```
 
-We can use `git add .` to add everything we've done. The `.` specifies adding everything, but you can also specify a filename, like so: `git add workshops.json`. 
+We can use `git add .` to add everything we've done. 
+
+The `.` specifies adding everything, but you can also specify a filename, like so: `git add workshops.json`. 
 
 `git commit -m` commits and allows us to add a message. Make your commit message useful such as listing your changes. This makes changes easier to track. Example: "Added Pandas Workshop to website"
 
