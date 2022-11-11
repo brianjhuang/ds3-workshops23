@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ds3-workshops23/static/css/main.88483213.css",
+    "main.css": "/ds3-workshops23/static/css/main.7eed5f03.css",
     "main.js": "/ds3-workshops23/static/js/main.7fdc94fa.js",
     "static/js/787.b09c2b02.chunk.js": "/ds3-workshops23/static/js/787.b09c2b02.chunk.js",
     "static/media/brand-icons.svg": "/ds3-workshops23/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -20,12 +20,12 @@
     "static/media/outline-icons.woff": "/ds3-workshops23/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/ds3-workshops23/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/ds3-workshops23/index.html",
-    "main.88483213.css.map": "/ds3-workshops23/static/css/main.88483213.css.map",
+    "main.7eed5f03.css.map": "/ds3-workshops23/static/css/main.7eed5f03.css.map",
     "main.7fdc94fa.js.map": "/ds3-workshops23/static/js/main.7fdc94fa.js.map",
     "787.b09c2b02.chunk.js.map": "/ds3-workshops23/static/js/787.b09c2b02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88483213.css",
+    "static/css/main.7eed5f03.css",
     "static/js/main.7fdc94fa.js"
   ]
 }
