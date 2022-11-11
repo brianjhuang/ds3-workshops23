@@ -146,3 +146,5 @@ Click on that, fill out the info, and submit it for review!
 
 Look through this tutorial for any commands I may have missed: 
 https://opensource.com/article/19/7/create-pull-request-github
+
+### Congrats! You submitted your changes! It will now be reviewed and merged in!
