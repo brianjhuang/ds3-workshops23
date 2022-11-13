@@ -63,23 +63,13 @@
         "next_workshop": ""
     },
     "": {
-        "title": "Coming Soon!",
+        "title": "",
         "date": "",
-        "link_id": "",
+        "link_id": "lost",
         "image_placeholder": "",
         "slide_links": "",
         "embed_desc": "",
         "hosts": [
-            {
-                "host_name": "TBD",
-                "button_type": "linkedin",
-                "url": "/"
-            },
-            {
-                "host_name": "TBD",
-                "button_type": "linkedin",
-                "url": "/"
-            }
         ],
         "next_workshop": ""
     }

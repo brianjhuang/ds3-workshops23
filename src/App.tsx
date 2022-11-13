@@ -13,10 +13,13 @@ import options from "./options.json";
 import { CURRENT_WORKSHOP } from "./constants";
 
 function App() {
-  const [selectedWorkshop, setSelectedWorkshop] = useState<any>(CURRENT_WORKSHOP);
+  const [selectedWorkshop, setSelectedWorkshop] =
+    useState<any>(CURRENT_WORKSHOP);
   const [data, setData] = useState<any>(workshops);
   const [workshop, setWorkshop] = useState<any>(data[selectedWorkshop]);
-  const [nextWorkshop, setNextWorkshop] = useState<any>(data[workshop.next_workshop]);
+  const [nextWorkshop, setNextWorkshop] = useState<any>(
+    data[workshop.next_workshop]
+  );
 
   // Update data on re-render
   useEffect(() => {
@@ -27,9 +30,8 @@ function App() {
   return (
     <div>
       <div className="parent-div">
-        <div className= "child-div">
+        <div className="child-div">
           <Card>
-            
             <LastWorkshop
               title={workshop.title}
               date={workshop.date}
@@ -39,33 +41,45 @@ function App() {
               embed_desc={workshop.embed_desc}
             ></LastWorkshop>
 
-            <Card.Content extra>
-              <h4>Hosts</h4>
-              {workshop.hosts.map((value: any) => {
-                return <Host
-                  button_type={value.button_type}
-                  url={value.url}
-                  host_name={value.host_name}
-                ></Host>
-              })}
-            </Card.Content>
-            
+            {nextWorkshop.hosts.length === 0 ? (
+              <></>
+            ) : (
+              <Card.Content extra>
+                {nextWorkshop.hosts.length === 0 ? <></> : <h4>Hosts</h4>}
+                {workshop.hosts.map((value: any) => {
+                  return (
+                    <Host
+                      button_type={value.button_type}
+                      url={value.url}
+                      host_name={value.host_name}
+                    ></Host>
+                  );
+                })}
+              </Card.Content>
+            )}
+
             <NextWorkshop
               title={nextWorkshop.title}
               date={nextWorkshop.date}
               sign_up="https://ds3.ucsd.edu/events.html"
             ></NextWorkshop>
 
-            <Card.Content extra>
-              <h4>Hosts</h4>
-              {nextWorkshop.hosts.map((value: any) => {
-                return <Host
-                  button_type={value.button_type}
-                  url={value.url}
-                  host_name={value.host_name}
-                ></Host>
-              })}
-            </Card.Content>
+            {nextWorkshop.hosts.length === 0 ? (
+              <></>
+            ) : (
+              <Card.Content extra>
+                <h4>Hosts</h4>
+                {nextWorkshop.hosts.map((value: any) => {
+                  return (
+                    <Host
+                      button_type={value.button_type}
+                      url={value.url}
+                      host_name={value.host_name}
+                    ></Host>
+                  );
+                })}
+              </Card.Content>
+            )}
           </Card>
 
           <Dropdown
@@ -73,7 +87,7 @@ function App() {
             closeOnEscape
             selection
             clearable
-            defaultValue = {selectedWorkshop}
+            defaultValue={selectedWorkshop}
             options={options}
             style={{ width: "100%" }}
             onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}

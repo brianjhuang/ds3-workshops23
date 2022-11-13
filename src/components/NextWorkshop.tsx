@@ -13,13 +13,13 @@ type NextWorkshopProps = {
 function NextWorkshop(props: NextWorkshopProps) {
   return (
     <Card.Content>
-      <h4>Next Up:</h4>
+      {props.title === "" ? <></> : <h4>Next Up:</h4>}
       <p>
         <b>{props.title}</b>
         <br></br>
         <i>{props.date}</i>
       </p>
-      <a href={props.sign_up}>Sign Up Here!</a>
+      {props.title === "" ? <h5>Pick from the dropdown below!</h5> : <a href={props.sign_up}>Sign Up Here!</a>}
     </Card.Content>
   );
 }
