@@ -1,15 +1,19 @@
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
 }
 
 .parent-div {
-  width : 100%;
+  width: 100%;
   height: 100vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
-  margin: 10px 10px;
+.child-div {
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <div className="parent-div">
-        <div>
+        <div className= "child-div">
           <Card>
             
             <LastWorkshop
