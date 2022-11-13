@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ds3-workshops23/static/css/main.7eed5f03.css",
-    "main.js": "/ds3-workshops23/static/js/main.7fdc94fa.js",
+    "main.css": "/ds3-workshops23/static/css/main.259efb3a.css",
+    "main.js": "/ds3-workshops23/static/js/main.afe8b795.js",
     "static/js/787.b09c2b02.chunk.js": "/ds3-workshops23/static/js/787.b09c2b02.chunk.js",
     "static/media/brand-icons.svg": "/ds3-workshops23/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/ds3-workshops23/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -20,12 +20,12 @@
     "static/media/outline-icons.woff": "/ds3-workshops23/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/ds3-workshops23/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/ds3-workshops23/index.html",
-    "main.7eed5f03.css.map": "/ds3-workshops23/static/css/main.7eed5f03.css.map",
-    "main.7fdc94fa.js.map": "/ds3-workshops23/static/js/main.7fdc94fa.js.map",
+    "main.259efb3a.css.map": "/ds3-workshops23/static/css/main.259efb3a.css.map",
+    "main.afe8b795.js.map": "/ds3-workshops23/static/js/main.afe8b795.js.map",
     "787.b09c2b02.chunk.js.map": "/ds3-workshops23/static/js/787.b09c2b02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eed5f03.css",
-    "static/js/main.7fdc94fa.js"
+    "static/css/main.259efb3a.css",
+    "static/js/main.afe8b795.js"
   ]
 }
