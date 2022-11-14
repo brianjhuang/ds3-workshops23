@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import { BrowserRouter, Route } from 'react-router-dom';
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 
