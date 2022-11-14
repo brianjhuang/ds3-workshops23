@@ -21,33 +21,40 @@ type LastWorkshopProps = {
 function LastWorkshop(props: LastWorkshopProps) {
   return (
     <Card.Content>
-      <Card.Header>{props.title === "" ? "Select a Workshop!" : props.title}</Card.Header>
-      <br></br>
+      {/* Render depending on if we have a workshop or not */}
+      <Card.Header>
+        {props.title === "" ? "Select a Workshop!" : props.title}
+      </Card.Header>
+      {props.title === "" ? <br></br> : <></>}
+
+      {/* If we have a date, render the date, otherwise render nothing*/}
       <Card.Meta>
         {props.date !== "" ? (
           <span className="date">Hosted on {props.date}</span>
         ) : (
           <></>
         )}
+        {/* If we have a link: render the embed, otherwise we render some GIF depending on if it's 
+        uploading, not hosted yet, or no workshop inputted*/}
       </Card.Meta>
       {props.link_id === "" ? (
         <Placeholder>
           <img
             src="https://c.tenor.com/E2iOZHiKrfAAAAAC/it-hasnt-happened-yet-not-yet.gif"
-            style={{width: "100%", maxWidth: "100%", maxHeight: "100%" }}
+            style={{ width: "100%", maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </Placeholder>
       ) : props.link_id === "lost" ? (
-        <div style = {{textAlign:"center"}}>
+        <div style={{ textAlign: "center" }}>
           <Placeholder>
             <img
               src="https://thumbs.gfycat.com/AdoredPerfectHousefly-size_restricted.gif"
               style={{ width: "100%", maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </Placeholder>
-          <i >You're a little lost</i>
+          <i>You're a little lost</i>
         </div>
-      ): props.link_id === "uploading" ? (
+      ) : props.link_id === "uploading" ? (
         <div>
           <Placeholder>
             <img
