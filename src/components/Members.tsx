@@ -11,7 +11,7 @@ import { CURRENT_WORKSHOP } from "../constants";
 import UnderConstruction from "./UnderConstruction";
 
 function Members() {
-    return <UnderConstruction></UnderConstruction>
+  return <UnderConstruction></UnderConstruction>;
 }
 
 export default Members;

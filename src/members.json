@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Brian Huang",
+    "Grade": "Senior",
+    "Domain": "Last Lecture, Outreach",
+    "Image": "https://media-exp1.licdn.com/dms/image/D5603AQFYbL5dnZoIrA/profile-displayphoto-shrink_200_200/0/1665881982880?e=1674086400&v=beta&t=Hu0WesiAaLPVIUFjw4GJxJ2wXuSRxfg51HkMcdKrO4M",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/brianjhuang/",
+        "instagram": "https://www.instagram.com/brianhuang_/"
+      }
+    ]
+  },
+  {
+    "Name": "Loren Phillips",
+    "Grade": "Senior",
+    "Domain": "Math",
+    "Image": "https://media-exp1.licdn.com/dms/image/C5603AQENNSxq9Sbn4g/profile-displayphoto-shrink_200_200/0/1651858789789?e=1674086400&v=beta&t=4MrQWeNsJDSRrDRpfnv7gZtnh21QGWN8XD82oyURHQ4",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/lorenjphillips/",
+        "instagarm": "https://www.instagram.com/lorenphillips/?hl=en"
+      }
+    ]
+  }
+]
