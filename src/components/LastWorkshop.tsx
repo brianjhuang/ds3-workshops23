@@ -22,6 +22,7 @@ function LastWorkshop(props: LastWorkshopProps) {
   return (
     <Card.Content>
       <Card.Header>{props.title === "" ? "Select a Workshop!" : props.title}</Card.Header>
+      <br></br>
       <Card.Meta>
         {props.date !== "" ? (
           <span className="date">Hosted on {props.date}</span>
