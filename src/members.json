@@ -22,5 +22,17 @@
         "instagarm": "https://www.instagram.com/lorenphillips/?hl=en"
       }
     ]
+  },
+  {
+    "Name": "Ethan Cao",
+    "Grade": "Freshman",
+    "Domain": "Math",
+    "Image": "https://media-exp1.licdn.com/dms/image/D5603AQHaH6VbgPk2_Q/profile-displayphoto-shrink_200_200/0/1667061705911?e=1674086400&v=beta&t=XnjW4l7JHA3xHxHg1AiuO9ItD1DZxJjPGQctfFKGHAY",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/ethan-cao1/",
+        "instagram": "https://www.instagram.com/e_cao17/"
+      }
+    ]
   }
 ]
