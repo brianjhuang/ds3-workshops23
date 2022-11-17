@@ -22,5 +22,17 @@
         "instagarm": "https://www.instagram.com/lorenphillips/?hl=en"
       }
     ]
+  },
+  {
+    "Name": "Anish Kasam",
+    "Grade": "Freshman",
+    "Domain": "Software Engineering",
+    "Image": "https://media-exp1.licdn.com/dms/image/D5603AQHPcIz958XRQw/profile-displayphoto-shrink_800_800/0/1668645750913?e=1674086400&v=beta&t=AsrxqRICyKCygcKmT9Wn9Rlm5sJe6RlxG2lrmQkoNhU",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/anishkasam/",
+        "instagram": "https://www.instagram.com/anishkasam/?hl=en"
+      }
+    ]
   }
 ]
