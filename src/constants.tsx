@@ -1,1 +1,1 @@
-export const CURRENT_WORKSHOP = "NLP";
+export const CURRENT_WORKSHOP = "Mindsets";
