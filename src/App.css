@@ -10,23 +10,42 @@ html {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .float-container {
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
-.float-child-left {
-  width: 25%;
-  float: left;
-  padding-right: 150px;
-  z-index: 2;
-}  
+/* Media query to distinguish between mobile and computer */
+@media screen and (max-width: 1000px) {
+  .parent-div {
+    align-items: normal;
+  }
 
-.float-child-right {
-  width: 75%;
-  float: left;
-  padding-left: 50px;
-  z-index: 1;
-} 
+  .float-container {
+    flex-direction: column;
+  }
+
+  .float-child-left {
+    margin: 2vh auto;
+  }  
+  
+  .float-child-right {
+    margin: 2vh auto;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .float-child-left {
+    width: 25%;
+    flex: 1;
+    margin-right: 15px;
+  }  
+  
+  .float-child-right {
+    width: 75%;
+    flex: 1;
+  }
+}

@@ -39,11 +39,11 @@ function Home() {
         ></LastWorkshop>
 
         {/*If we have a next workshop render the card, otherwise we render nothing*/}
-        {nextWorkshop.hosts.length === 0 ? (
+        {workshop.hosts.length === 0 ? (
           <></>
         ) : (
           <Card.Content extra>
-            {nextWorkshop.hosts.length === 0 ? <></> : <h4>Hosts</h4>}
+            {workshop.hosts.length === 0 ? <></> : <h4>Hosts</h4>}
             {workshop.hosts.map((value: any) => {
               return (
                 <Host
