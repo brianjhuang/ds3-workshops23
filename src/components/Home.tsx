@@ -33,7 +33,7 @@ function Home() {
         selection
         defaultValue={selectedWorkshop}
         options={options}
-        style={{ width: "61.5%" }}
+        style={{ width: "100%" }}
         onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}
       />
       {/* Our current workshop */}
