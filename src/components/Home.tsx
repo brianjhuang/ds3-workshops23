@@ -85,7 +85,6 @@ function Home() {
         placeholder="Find another workshop"
         closeOnEscape
         selection
-        clearable
         defaultValue={selectedWorkshop}
         options={options}
         style={{ width: "61.5%" }}
