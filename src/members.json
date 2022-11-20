@@ -23,4 +23,15 @@
       }
     ]
   }
+  {
+    "Name": "Igor Aprelev",
+    "Grade": "Sophomore",
+    "Domain": "Math",
+    "Image": "https://media-exp1.licdn.com/dms/image/C5603AQFW8sQigmNhpg/profile-displayphoto-shrink_800_800/0/1634624407724?e=1674086400&v=beta&t=bQX7cgius-DJVAwK7LLaVpsdQzalTLXwMvt86M2QpBI",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/lorenjphillips/"
+      }
+    ]
+  }
 ]
