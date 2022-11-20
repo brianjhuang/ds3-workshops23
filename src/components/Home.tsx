@@ -27,6 +27,15 @@ function Home() {
 
   return (
     <>
+      <Dropdown
+        placeholder="Find another workshop"
+        closeOnEscape
+        selection
+        defaultValue={selectedWorkshop}
+        options={options}
+        style={{ width: "61.5%" }}
+        onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}
+      />
       {/* Our current workshop */}
       <Card>
         <LastWorkshop
@@ -80,16 +89,6 @@ function Home() {
           </Card.Content>
         )}
       </Card>
-
-      <Dropdown
-        placeholder="Find another workshop"
-        closeOnEscape
-        selection
-        defaultValue={selectedWorkshop}
-        options={options}
-        style={{ width: "61.5%" }}
-        onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}
-      />
     </>
   );
 }
