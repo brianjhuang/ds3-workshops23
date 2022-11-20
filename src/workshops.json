@@ -55,6 +55,43 @@
                 "url": "https://www.linkedin.com/in/brianjhuang/"
             }
         ],
+        "next_workshop": "LinearAlgebra"
+    },
+    "LinearAlgebra": {
+        "title": "Linear Algebra Essentials",
+        "date": "November 28th, 2022",
+        "link_id": "",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "Behind every machine learning expert is a deep understanding of linear algebra. Join two former big tech interns as they take you on a through crash course of Linear Algebra so that you can crush your next Deep Learning/ML class.",
+        "hosts": [
+            {
+                "host_name": "Loren Phillips",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/lorenjphillips/"
+            },
+            {
+                "host_name": "Shauna Wilder",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/shauna-w-65a031bb/"
+            }
+        ],
+        "next_workshop": "JavaScript"
+    },
+    "JavaScript": {
+        "title": "Javascript for Data Science",
+        "date": "November 30th, 2022",
+        "link_id": "",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "You’ve built the pipelines, now it’s time to deploy! Join DS3 as we take a deep dive through Javascript and learn how to leverage the tools provided in your data science career.",
+        "hosts": [
+            {
+                "host_name": "Miko Brown",
+                "button_type": "linkedin",
+                "url": ""
+            }
+        ],
         "next_workshop": ""
     },
     "": {

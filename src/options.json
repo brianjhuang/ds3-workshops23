@@ -13,5 +13,15 @@
         "key": "Mindsets",
         "text": "Healthy Mindsets for Data Scientists",
         "value": "Mindsets"
+    },
+    {
+        "key": "LinearAlgebra",
+        "text": "Linear Algebra Essentials",
+        "value": "LinearAlgebra"
+    },
+    {
+        "key": "JavaScript",
+        "text": "Javascript for Data Scientists",
+        "value": "JavaScript"
     }
 ]
