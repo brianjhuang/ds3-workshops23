@@ -53,6 +53,11 @@
                 "host_name": "Brian Huang",
                 "button_type": "linkedin",
                 "url": "https://www.linkedin.com/in/brianjhuang/"
+            },
+            {
+                "host_name": "Brian Huang",
+                "button_type": "instagram",
+                "url": "https://www.instagram.com/brianhuang_/"
             }
         ],
         "next_workshop": "LinearAlgebra"
