@@ -81,5 +81,17 @@
       "instagram": "https://www.instagram.com/garrettlam_/"
     }
   ]
+}, 
+{
+  "Name": "Yosen Lin",
+  "Grade": "Sophomore",
+  "Domain": "Software Engineering, ML/Deep Learning",
+  "Image": "https://media-exp1.licdn.com/dms/image/C5603AQEPT-kpbzBvYA/profile-displayphoto-shrink_800_800/0/1643417360624?e=1674691200&v=beta&t=dkeNatjHh1tHUG6ubrg9keBpJ5931u0i9bZlQ43VYLo",
+  "Socials": [
+    {
+      "linkedin": "https://www.linkedin.com/in/yosen-lin-8b9942208/",
+      "instagram": "https://www.instagram.com/yosen.0628"
+    }
+  ]
 }
 ]
