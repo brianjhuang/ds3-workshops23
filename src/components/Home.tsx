@@ -68,7 +68,7 @@ function Home() {
         <NextWorkshop
           title={nextWorkshop.title}
           date={nextWorkshop.date}
-          sign_up="https://ds3.ucsd.edu/events.html"
+          sign_up={nextWorkshop.sign_up}
         ></NextWorkshop>
 
         {/*If we have a next workshop hosts render the card, otherwise we render nothing*/}
