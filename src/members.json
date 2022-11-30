@@ -105,5 +105,17 @@
         "instagram": "https://www.instagram.com/yosen.0628"
       }
     ]
-  }
+  },
+  {
+     "Name": "Camille Sicat",
+     "Grade": "Freshman",
+     "Domain": "Last Lecture",
+     "Image": "https://media-exp1.licdn.com/dms/image/D4E03AQHayw92oiDssg/profile-displayphoto-shrink_400_400/0/1667779910519?e=1675296000&v=beta&t=aI_B4gnyMlQG_HVEAtVXaOkUfwP_DSah8Nu1z7RglNU",
+     "Socials": [
+       {
+         "linkedin": "https://www.linkedin.com/in/camille-sicat-8b3267256/",
+         "instagarm": "https://www.instagram.com/chamsicat"
+       }
+     ]
+    }
 ]
