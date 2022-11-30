@@ -24,6 +24,18 @@
     ]
   },
   {
+    "Name": "Hana Julia Tjendrawasi",
+    "Grade": "Freshman",
+    "Domain": "Outreach",
+    "Image": "https://media-exp1.licdn.com/dms/image/D5603AQE71ZjSHBhlKQ/profile-displayphoto-shrink_800_800/0/1668407181739?e=1674086400&v=beta&t=mwsaOlonWuFtc_v3wzK-eMha2PgDjSU9Kevbup0lD2Q",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/hanajuliatj/",
+        "instagarm": "https://www.instagram.com/hanajuliatj/?hl=en"
+      }
+    ]
+  },
+  {
     "Name": "Ryan Hung",
     "Grade": "Sophomore",
     "Domain": "Software Engineering",
@@ -71,39 +83,39 @@
     ]
   },
   {
-  "Name": "Garrett Lam",
-  "Grade": "Junior",
-  "Domain": "Software Engineering, ML/Deep Learning",
-  "Image": "https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/308948664_1158279174773604_6110262987422281964_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=100&_nc_ohc=-KRK-cA2OucAX-CYQVC&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfCt3Mge_8j66KFx1aA1R_dCS3K8IZNDg4g1XErxQshIWg&oe=637C7C6A&_nc_sid=1527a3",
-  "Socials": [
-    {
-      "linkedin": "https://www.linkedin.com/in/garrett-lam/",
-      "instagram": "https://www.instagram.com/garrettlam_/"
+    "Name": "Garrett Lam",
+    "Grade": "Junior",
+    "Domain": "Software Engineering, ML/Deep Learning",
+    "Image": "https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/308948664_1158279174773604_6110262987422281964_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_cat=100&_nc_ohc=-KRK-cA2OucAX-CYQVC&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfCt3Mge_8j66KFx1aA1R_dCS3K8IZNDg4g1XErxQshIWg&oe=637C7C6A&_nc_sid=1527a3",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/garrett-lam/",
+        "instagram": "https://www.instagram.com/garrettlam_/"
+      }
+    ]
+  }, 
+  {
+    "Name": "Yosen Lin",
+    "Grade": "Sophomore",
+    "Domain": "Software Engineering, ML/Deep Learning",
+    "Image": "https://media-exp1.licdn.com/dms/image/C5603AQEPT-kpbzBvYA/profile-displayphoto-shrink_800_800/0/1643417360624?e=1674691200&v=beta&t=dkeNatjHh1tHUG6ubrg9keBpJ5931u0i9bZlQ43VYLo",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/yosen-lin-8b9942208/",
+        "instagram": "https://www.instagram.com/yosen.0628"
+      }
+    ]
+  },
+  {
+     "Name": "Camille Sicat",
+     "Grade": "Freshman",
+     "Domain": "Last Lecture",
+     "Image": "https://media-exp1.licdn.com/dms/image/D4E03AQHayw92oiDssg/profile-displayphoto-shrink_400_400/0/1667779910519?e=1675296000&v=beta&t=aI_B4gnyMlQG_HVEAtVXaOkUfwP_DSah8Nu1z7RglNU",
+     "Socials": [
+       {
+         "linkedin": "https://www.linkedin.com/in/camille-sicat-8b3267256/",
+         "instagarm": "https://www.instagram.com/chamsicat"
+       }
+     ]
     }
-  ]
-}, 
-{
-  "Name": "Yosen Lin",
-  "Grade": "Sophomore",
-  "Domain": "Software Engineering, ML/Deep Learning",
-  "Image": "https://media-exp1.licdn.com/dms/image/C5603AQEPT-kpbzBvYA/profile-displayphoto-shrink_800_800/0/1643417360624?e=1674691200&v=beta&t=dkeNatjHh1tHUG6ubrg9keBpJ5931u0i9bZlQ43VYLo",
-  "Socials": [
-    {
-      "linkedin": "https://www.linkedin.com/in/yosen-lin-8b9942208/",
-      "instagram": "https://www.instagram.com/yosen.0628"
-    }
-  ]
-},
-{
-   "Name": "Camille Sicat",
-   "Grade": "Freshman",
-   "Domain": "Last Lecture",
-   "Image": "https://media-exp1.licdn.com/dms/image/D4E03AQHayw92oiDssg/profile-displayphoto-shrink_400_400/0/1667779910519?e=1675296000&v=beta&t=aI_B4gnyMlQG_HVEAtVXaOkUfwP_DSah8Nu1z7RglNU",
-   "Socials": [
-     {
-       "linkedin": "https://www.linkedin.com/in/camille-sicat-8b3267256/",
-       "instagarm": "https://www.instagram.com/chamsicat"
-     }
-   ]
-  }
 ]
