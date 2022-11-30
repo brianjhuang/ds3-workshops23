@@ -2,7 +2,8 @@
     "IntroToPP": {
         "title": "Introduction to Python and Pandas",
         "date": "November 4th, 2022",
-        "link_id": "dQw4w9WgXcQ",
+        "link_id": "BP54DOVEmCE",
+        "sign_up": "https://ds3.ucsd.edu/events.html",
         "image_placeholder": "/images/IntroToPP.png",
         "slide_links": "https://github.com/KeaganBenson/DS3-Python-Pandas-Workshop",
         "embed_desc": "The most important tools in a data scientist's toolkit. Join DS3 for the first workshop of the year and learn the fundamentals of Python and Pandas.",
@@ -23,8 +24,9 @@
     "NLP": {
         "title": "Natural Language Processing",
         "date": "November 9th, 2022",
-        "link_id": "uploading",
-        "image_placeholder": "",
+        "link_id": "z33_RN_ATig",
+        "sign_up": "https://ds3.ucsd.edu/events.html",
+        "image_placeholder": "/images/NLP.jpg",
         "slide_links": "https://drive.google.com/file/d/1SAMQd6k-pRffN1JqcdbFZpvqIGpTKKPy/view?usp=drivesdk",
         "embed_desc": "Have you ever been curious about how auto-complete works? Maybe some of the chat bots you’ve talked with have been getting a little too smart. Join DS3 as we take a deep dive into Natural Language Processing!",
         "hosts": [
@@ -39,25 +41,65 @@
                 "url": "https://www.linkedin.com/in/kylenero/"
             }
         ],
-        "next_workshop": "InternExperiences"
+        "next_workshop": "Mindsets"
     },
-    "InternExperiences": {
-        "title": "Internship Experiences",
-        "date": "November 16th, 2022",
+    "Mindsets": {
+        "title": "Healthy Mindsets for Data Scientists",
+        "date": "November 21st, 2022",
         "link_id": "",
-        "image_placeholder": "",
-        "slide_links": "",
-        "embed_desc": "Have you ever wondered what it’s like working an internship? What do people do at Facebook and Amazon? Join DS3 for it’s first live intern panel to hear about how our students got their internships, what they learned, and their tips on succeeding at their internships!",
+        "sign_up": "https://ds3.ucsd.edu/events.html",
+        "image_placeholder": "/images/HealthyMindsets.png",
+        "slide_links": "https://drive.google.com/file/d/10tc1fjcY9wfwOUM6Y_EtPDDKQYbm6E1y/view?usp=sharing",
+        "embed_desc": "Have you ever thought about the most important soft skills that a Data Scientist can have? Oftentimes the skills career data scientists struggle with the most aren’t the ones you see in the classroom. Develop your career mindset soft skills with our seniors as we tackle common pitfalls you may see during school, internships, and your post-grad career!",
         "hosts": [
             {
-                "host_name": "TBD",
+                "host_name": "Brian Huang",
                 "button_type": "linkedin",
-                "url": "/"
+                "url": "https://www.linkedin.com/in/brianjhuang/"
             },
             {
-                "host_name": "TBD",
+                "host_name": "Brian Huang",
+                "button_type": "instagram",
+                "url": "https://www.instagram.com/brianhuang_/"
+            }
+        ],
+        "next_workshop": "LinearAlgebra"
+    },
+    "LinearAlgebra": {
+        "title": "Linear Algebra Essentials",
+        "date": "November 28th, 2022",
+        "link_id": "",
+        "sign_up": "https://forms.gle/w3yuuUW5pXKmU1su8",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "Behind every machine learning expert is a deep understanding of linear algebra. Join two former big tech interns as they take you on a through crash course of Linear Algebra so that you can crush your next Deep Learning/ML class.",
+        "hosts": [
+            {
+                "host_name": "Loren Phillips",
                 "button_type": "linkedin",
-                "url": "/"
+                "url": "https://www.linkedin.com/in/lorenjphillips/"
+            },
+            {
+                "host_name": "Shauna Wilder",
+                "button_type": "linkedin",
+                "url": "https://www.linkedin.com/in/shauna-w-65a031bb/"
+            }
+        ],
+        "next_workshop": "JavaScript"
+    },
+    "JavaScript": {
+        "title": "Javascript for Data Science",
+        "date": "November 30th, 2022",
+        "link_id": "",
+        "sign_up": "https://forms.gle/p7WEqcSbPcDAFFpW7",
+        "image_placeholder": "",
+        "slide_links": "",
+        "embed_desc": "You’ve built the pipelines, now it’s time to deploy! Join DS3 as we take a deep dive through Javascript and learn how to leverage the tools provided in your data science career.",
+        "hosts": [
+            {
+                "host_name": "Miko Brown",
+                "button_type": "linkedin",
+                "url": ""
             }
         ],
         "next_workshop": ""
@@ -66,6 +108,7 @@
         "title": "",
         "date": "",
         "link_id": "lost",
+        "sign_up": "https://ds3.ucsd.edu/events.html",
         "image_placeholder": "",
         "slide_links": "",
         "embed_desc": "",

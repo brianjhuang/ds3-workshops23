@@ -27,6 +27,15 @@ function Home() {
 
   return (
     <>
+      <Dropdown
+        placeholder="Find another workshop"
+        closeOnEscape
+        selection
+        defaultValue={selectedWorkshop}
+        options={options}
+        style={{ width: "100%" }}
+        onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}
+      />
       {/* Our current workshop */}
       <Card>
         <LastWorkshop
@@ -39,11 +48,11 @@ function Home() {
         ></LastWorkshop>
 
         {/*If we have a next workshop render the card, otherwise we render nothing*/}
-        {nextWorkshop.hosts.length === 0 ? (
+        {workshop.hosts.length === 0 ? (
           <></>
         ) : (
           <Card.Content extra>
-            {nextWorkshop.hosts.length === 0 ? <></> : <h4>Hosts</h4>}
+            {workshop.hosts.length === 0 ? <></> : <h4>Hosts</h4>}
             {workshop.hosts.map((value: any) => {
               return (
                 <Host
@@ -59,7 +68,7 @@ function Home() {
         <NextWorkshop
           title={nextWorkshop.title}
           date={nextWorkshop.date}
-          sign_up="https://ds3.ucsd.edu/events.html"
+          sign_up={nextWorkshop.sign_up}
         ></NextWorkshop>
 
         {/*If we have a next workshop hosts render the card, otherwise we render nothing*/}
@@ -80,17 +89,6 @@ function Home() {
           </Card.Content>
         )}
       </Card>
-
-      <Dropdown
-        placeholder="Find another workshop"
-        closeOnEscape
-        selection
-        clearable
-        defaultValue={selectedWorkshop}
-        options={options}
-        style={{ width: "61.5%" }}
-        onChange={(e: any, { value }: any) => setSelectedWorkshop(value)}
-      />
     </>
   );
 }
