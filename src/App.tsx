@@ -4,18 +4,21 @@ import "semantic-ui-css/semantic.min.css";
 
 import Home from "./components/Home";
 import NavMenu from "./components/NavMenu";
-import {Sidebar} from "./components/Sidebar";
+import { Sidebar } from "./components/Sidebar";
 import Members from "./components/Members";
 import Calendar from "./components/Calendar";
-import isMobile from "./CheckMobile"
+import isMobile from "./CheckMobile";
 
 function App() {
   if (isMobile()) {
     return (
       <BrowserRouter>
-        <div className='App' id="outer-container">
-          <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-          <div id ="page-wrap">
+        <div className="App" id="outer-container">
+          <Sidebar
+            pageWrapId={"page-wrap"}
+            outerContainerId={"outer-container"}
+          />
+          <div id="page-wrap">
             <div className="parent-div">
               <div className="float-container">
                 <Routes>
@@ -53,8 +56,8 @@ function App() {
   } else {
     return (
       <BrowserRouter>
-        <div className='App' id="outer-container">
-          <div id ="page-wrap">
+        <div className="App" id="outer-container">
+          <div id="page-wrap">
             <div className="parent-div">
               <div className="float-container">
                 <NavMenu></NavMenu>
