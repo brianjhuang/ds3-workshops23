@@ -129,5 +129,16 @@
         "instagram": "https://www.instagram.com/timqlin"
       }
     ]
+  },
+  {
+    "Name": "Joon Kim",
+    "Grade": "Freshman",
+    "Domain": "ML/Deep Learning",
+    "Image": "",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/joon-kim-x64/"
+      }
+    ]
   }
 ]
