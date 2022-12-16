@@ -22,5 +22,18 @@
         "instagarm": "https://www.instagram.com/lorenphillips/?hl=en"
       }
     ]
+  },
+  {
+    "Name": "Navneet Sharma ",
+    "Grade": "Freshman",
+    "Domain": "Data Science Tools",
+    "Image": "https://media.licdn.com/dms/image/C5603AQGo9B4TlUq6Jw/profile-displayphoto-shrink_100_100/0/1663350613699?e=1676505600&v=beta&t=o1ziBjOS8if5Ge_LjALNn8adoQ99TqVFoy84qvWar9g",
+    "Socials": [
+      {
+        "linkedin": "www.linkedin.com/in/sharma-navneet",
+        "instagarm": "https://www.instagram.com/nav.neet.s/"
+      }
+    ]
+
   }
 ]
