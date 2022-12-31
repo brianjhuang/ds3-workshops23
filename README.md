@@ -30,7 +30,7 @@ To fork the repo, navigate to the header bar and click on the Fork button. After
 
 Example:
 ```
-git clone https://github.com/cecilia-lin/ds3-workshops23
+git clone https://github.com/brianjhuang/ds3-workshops23.git
 ```
 
 Note: This is the command to clone the main repo, you should replace this link with the link in your FORKED repository.
