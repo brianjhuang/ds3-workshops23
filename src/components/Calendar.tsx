@@ -11,7 +11,14 @@ import { CURRENT_WORKSHOP } from "../constants";
 import UnderConstruction from "./UnderConstruction";
 
 function Calendar() {
-  return <UnderConstruction></UnderConstruction>;
+  return (
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=c_6a154893689d6a0906f6311d88adf4ca5c125aa6de0dc09e95375593071ff40b%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+      width="800"
+      height="600"
+      scrolling="no"
+    ></iframe>
+  );
 }
 
 export default Calendar;
