@@ -131,6 +131,17 @@
     ]
   },
   {
+    "Name": "Joon Kim",
+    "Grade": "Freshman",
+    "Domain": "ML/Deep Learning",
+    "Image": "",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/joon-kim-x64/"
+      }
+    ]
+  },
+  {
     "Name": "Cecilia Lin",
     "Grade": "Freshman",
     "Domain": "Last Lecture, Outreach",
