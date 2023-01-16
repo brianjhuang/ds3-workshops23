@@ -70,7 +70,7 @@
         "date": "November 28th, 2022",
         "link_id": "bSRMOFYVfCE",
         "sign_up": "https://forms.gle/w3yuuUW5pXKmU1su8",
-        "image_placeholder": "",
+        "image_placeholder": "/images/LinearAlgebra.png",
         "slide_links": "",
         "embed_desc": "Behind every machine learning expert is a deep understanding of linear algebra. Join two former big tech interns as they take you on a through crash course of Linear Algebra so that you can crush your next Deep Learning/ML class.",
         "hosts": [
@@ -92,7 +92,7 @@
         "date": "November 30th, 2022",
         "link_id": "ah9muV9o6xY",
         "sign_up": "https://forms.gle/p7WEqcSbPcDAFFpW7",
-        "image_placeholder": "",
+        "image_placeholder": "/images/JavaScriptEssentials.png",
         "slide_links": "",
         "embed_desc": "You’ve built the pipelines, now it’s time to deploy! Join DS3 as we take a deep dive through Javascript and learn how to leverage the tools provided in your data science career.",
         "hosts": [
