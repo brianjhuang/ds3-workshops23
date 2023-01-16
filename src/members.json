@@ -139,6 +139,30 @@
       {
         "linkedin": "https://www.linkedin.com/in/zhoutianning-tiffany-pan/",
         "instagram": "https://www.instagram.com/tiffany.pztn/"
+       }
+    ]
+   },
+   {
+    "Name": "Baraa Zekeria",
+    "Grade": "Junior",
+    "Domain": "Data Science Tools",
+    "Image": "https://media.licdn.com/dms/image/C5603AQHryW0E4Fp_mA/profile-displayphoto-shrink_400_400/0/1626252903644?e=1678320000&v=beta&t=yHewG2R3ITfZ3xF6psyDyawUvlZMkUQ5ZFA133XjzuI",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/baraa-zekeria/",
+        "instagram": "https://www.instagram.com/baraazekeria"
+      }
+     ]
+   },
+   {
+    "Name": "Phu Dang",
+    "Grade": "Sophomore",
+    "Domain": "Business Intelligence, Consulting",
+    "Image": "https://media.licdn.com/dms/image/D5603AQGvlCeow1kqmg/profile-displayphoto-shrink_800_800/0/1662273303538?e=1677715200&v=beta&t=MaUbsvZApN37Vri_JkqaDIg9bj2n9pEwdjM-WmlqW7U",
+    "Socials": [
+      {
+        "linkedin": "https://www.linkedin.com/in/phungocdang/",
+        "instagram": "https://www.instagram.com/dangnphu/"
       }
     ]
   }
