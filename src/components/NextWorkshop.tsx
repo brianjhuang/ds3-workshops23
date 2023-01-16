@@ -19,7 +19,7 @@ function NextWorkshop(props: NextWorkshopProps) {
         <br></br>
         <i>{props.date}</i>
       </p>
-      {props.title === "" ? <h5>Pick from the dropdown below!</h5> : <a href={props.sign_up}>Sign Up Here!</a>}
+      {props.title === "" ? <h5>Pick from the dropdown above!</h5> : <a href={props.sign_up}>Sign Up Here!</a>}
     </Card.Content>
   );
 }
