@@ -200,5 +200,18 @@
         "instagram": "https://www.instagram.com/dangnphu/"
       }
     ]
+  },
+  {
+    "Name": "Ojas Vashishtha",
+    "Grade": "Sophomore",
+    "Domain": "Data Science Tools",
+    "Image": "https://media.licdn.com/dms/image/D4D03AQHv5MgXW8MlFA/profile-displayphoto-shrink_800_800/0/1664307356008?e=1680134400&v=beta&t=byDYXHE2nfJN_mleqEQX6fDZG-6y_hlTLipcgEoZnxE",
+    "Socials": [
+      {
+        "linkedin": "www.linkedin.com/in/ojas-vashishtha-b26604223",
+        "instagram": "https://www.instagram.com/datboiojas/"
+      }
+    ]
   }
+  
 ]
